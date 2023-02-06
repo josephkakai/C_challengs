@@ -9,8 +9,8 @@ int main(void)
 {
 	char a;
 
-	printf("Please input a character to print it ASCII value:");
+	printf("Please input a character to print it ASCII value: ");
 	scanf("%c", &a);
-	printf("The ASCII value of your input will be: %d \n", a);
+	printf("The ASCII value of your input will be: \n %d \n", a);
 	return (0);
 }
