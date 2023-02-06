@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	int a;
+	char a;
 
-	printf("Please input a character to print it ASCII value");
+	printf("Please input a character to print it ASCII value:");
 	scanf("%c", &a);
-	printf("The ASCII value of your input will be: %d", a);
+	printf("The ASCII value of your input will be: %d \n", a);
 	return (0);
 }
